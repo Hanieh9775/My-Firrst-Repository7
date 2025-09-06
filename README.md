@@ -1,7 +1,7 @@
 import requests
 from flask import Flask, request, render_template_string
 
-app = Flask(__name__)
+app = Flask
 
 HTML_TEMPLATE = """
 <!DOCTYPE html>
